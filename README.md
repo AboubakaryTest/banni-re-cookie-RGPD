@@ -39,7 +39,7 @@ Ce projet est une page web simple intégrant une **fenêtre modale de consenteme
 ## 🚀 Déploiement
 
 Le site est hébergé via GitHub Pages.  
-➡️ [Clique ici pour voir la version en ligne](https://**ton-nom-utilisateur**.github.io/**nom-du-depot**)
+➡️ [Clique ici pour voir la version en ligne](https://github.com/AboubakaryTest/banni-re-cookie-RGPD?tab=readme-ov-file)
 
 
 ---

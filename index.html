@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Page d’accueil RGPD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="main-content" class="blurred">
+    <h1>Bienvenue sur mon site</h1>
+
+    <section class="signup-section">
+      <h2>Inscription</h2>
+      <form id="signup-form">
+        <label for="username">Nom d'utilisateur :</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+
+        <button type="submit">S’inscrire</button>
+      </form>
+    </section>
+  </div>
+
+  <div id="cookie-modal" class="modal">
+    <div class="modal-box">
+      <h3>Consentement aux cookies</h3>
+<p>
+  Nous utilisons des cookies et d'autres traceurs afin d'assurer le bon fonctionnement de notre site, 
+  mesurer l'audience, personnaliser votre expérience et vous proposer des contenus ou publicités adaptés à vos centres d'intérêt.
+</p>
+<p>
+  Certains cookies sont strictement nécessaires au fonctionnement du site et ne peuvent être désactivés. 
+  D'autres, comme ceux destinés à la mesure d’audience ou à la publicité ciblée, ne seront déposés que si vous donnez votre consentement.
+</p>
+<p>
+  Vous pouvez choisir d’accepter, de refuser ou de personnaliser vos préférences. 
+  Votre choix sera conservé pendant 6 mois. Vous pouvez le modifier à tout moment à l’aide du lien prévu à cet effet.
+</p>
+<p>
+  Pour en savoir plus sur l’utilisation de vos données, vous pouvez consulter notre <a href="https://www.economie.gouv.fr/politique-confidentialite" target="_blank">politique de confidentialité</a>.
+</p>
+
+      <div class="cookie-actions">
+        <button id="accept">Tout accepter</button>
+        <button id="reject">Tout refuser</button>
+        <button id="customize">Personnaliser</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="cookie-settings" class="modal" style="display: none;">
+    <div class="modal-box">
+      <h3>Préférences de cookies</h3>
+      <form id="cookie-form">
+        <label><input type="checkbox" name="functional" checked disabled> Cookies fonctionnels</label><br>
+        <label><input type="checkbox" name="analytics"> Cookies de mesure d’audience</label><br>
+        <label><input type="checkbox" name="ads"> Cookies publicitaires</label><br>
+        <button type="submit">Sauvegarder mes choix</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
